@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    tools:context=".kematian">
+
+    <LinearLayout
+        android:layout_margin="25dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/judul_deskripsi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/deskripsi"
+            android:layout_gravity="center"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sub_deskripsi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:lineSpacingExtra="@dimen/activity_vertical_margin"
+            android:text="@string/sub_deskripsi"
+            android:textColor="@color/hitam"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/sub_deskripsi2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:lineSpacingExtra="@dimen/activity_vertical_margin"
+            android:text="@string/sub_deskripsi1"
+            android:textColor="@color/hitam"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

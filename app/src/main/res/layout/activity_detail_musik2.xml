@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    tools:context=".detail_musik2">
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="80dp"
+            android:text="Parmusik Sopo"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:src="@drawable/gambar2"/>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/data1"
+                android:layout_marginTop="20dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/ic_baseline_place_24"/>
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70dp"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:text="Desa Laguboti, Kab.Toba Samosir"/>
+
+            <ImageView
+                android:id="@+id/data2"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/data1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/ic_baseline_phone_24"/>
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_below="@id/text1"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70dp"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:text="081274057000"/>
+
+            <ImageView
+                android:id="@+id/data3"
+                android:layout_marginTop="3dp"
+                android:layout_below="@id/data2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/wa"/>
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_below="@id/text2"
+                android:layout_marginTop="17dp"
+                android:layout_marginEnd="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70dp"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:text="081267834153"/>
+
+            <ImageView
+                android:id="@+id/data4"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/data3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/rekening"/>
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_below="@id/text3"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70dp"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:text="145-20-5389"/>
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_below="@id/text4"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70dp"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:text="Jenis Acara:"/>
+
+            <TextView
+                android:id="@+id/text6"
+                android:layout_below="@id/text5"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70dp"
+                android:textColor="@color/blue"
+                android:textSize="15sp"
+                android:onClick="satu"
+                android:text="Pernikahan"/>
+
+            <TextView
+                android:id="@+id/text7"
+                android:layout_below="@id/text6"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70dp"
+                android:textColor="@color/blue"
+                android:textSize="15sp"
+                android:onClick="dua"
+                android:text="Ulang Tahun"/>
+
+            <TextView
+                android:id="@+id/text8"
+                android:layout_below="@id/text7"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70dp"
+                android:textColor="@color/blue"
+                android:onClick="tiga"
+                android:textSize="15sp"
+                android:text="Markaroan"
+                tools:ignore="OnClick" />
+
+            <TextView
+                android:id="@+id/text9"
+                android:layout_below="@id/text8"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70dp"
+                android:textColor="@color/blue"
+                android:onClick="empat"
+                android:textSize="15sp"
+                android:text="Kematian"/>
+
+            <Button
+                android:id="@+id/sewa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="200dp"
+                android:layout_below="@+id/text9"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="15dp"
+                android:background="@color/blue"
+                android:text="sewa"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

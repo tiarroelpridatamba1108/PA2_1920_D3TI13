@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Sewa Musik</string>
+    <string name="registrasi">Registrasi</string>
+    <string name="login">Login</string>
+    <string name="login1">Login</string>
+    <string name="sebagai">sebagai : </string>
+    <string name="parmusik">parmusik</string>
+    <string name="customer">customer</string>
+    <string name="akun">sudah memiliki akun?</string>
+    <string name="lupa_password">lupa password</string>
+    <string name="form">Form Sewa</string>
+    <string name="no1">1. Dalam acara apa parmusik dibutuhkan?</string>
+    <string name="no2">2. Tanggal berapa acara tersebut diadakan?</string>
+    <string name="no3">3. Tanggal berapa acara tersebut berakhir?</string>
+    <string name="no4">4. Dimana lokasi tersebut diadakan?</string>
+    <string name="no5">5. Metode Pembayaran</string>
+    <string name="detail">detail</string>
+    <string name="detail1">Detail Parmusik</string>
+    <string name="option1">pernikahan</string>
+    <string name="option2">markaroan</string>
+    <string name="option3">ulang tahun</string>
+    <string name="option4">kematian</string>
+    <string name="cara1">Cash On Delivery(COD)</string>
+    <string name="cara2">Transfer Bank</string>
+    <string name="cara3">Rekening Bersama</string>
+    <string name="deskripsi">Deskripsi Acara Kematian</string>
+    <string name="sub_deskripsi">Acara ini dibedakan atas 2 bagian, yaitu: 1.Kematian anak-anak(masih muda) Alat musik yang umumnya digunakan Keyboard Harga: Rp1.500.000,00 </string>
+    <string name="sub_deskripsi1">2. Kematian orang-tua(saur matua)Alat musik yang umumnya digunakan Gondang Batak Tambahan: Penyanyi Harga: Rp2.300.000,00</string>
+</resources>
